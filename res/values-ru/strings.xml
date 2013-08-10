@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Keystore Unlocker</string>
+    <string name="description">
+        *** для работы приложения нужен ROOT доступ ***
+        Если у вас нет доступа к root вы можете использовать программу KeystoreActivator
+
+        Это приложение ароматически вводит мастер-пароль от безопасного хранилища при загрузке устройства.
+    </string>
+
+    <string name="status_no_error">Хранилище успешно разблокировано</string>
+    <string name="status_no_error_relocked">Хранилище было успешно заблокировано и разблокировано обратно</string>
+    <string name="status_uninitialized">Хранилище сертификатов не инициализировано</string>
+    <string name="status_10">Неправильный пароль. Осталось попыток: %d. Если все попытки будут неудачными, хранилище
+        будет очищено
+    </string>
+    <string name="status_sudo_declined">Не удалось получить права root. Убедитесь что приложению выданы постоянные
+        права
+    </string>
+    <string name="status_sudo_missing">Команда "su" не найдена, без неё никак</string>
+    <string name="status_sudo_old">В доступе к хранилищу было отказано</string>
+
+    <string name="notification_ticker">Не удалось активировать хранилище</string>
+    <string name="wrong_password_disabling">Неправильный пароль. Авто-активация отключена</string>
+
+    <string name="unlock_btn_summary">Разблокировать прямо сейчас. Обязательно попробуйте и разрешите приложению
+        автоматически пользоваться правами root
+    </string>
+    <string name="unlock_btn_title">Протестировать</string>
+
+    <string name="boot_unlock_title">Разблокировка при включении</string>
+    <string name="boot_unlock_summary">При включении устройства автоматически снимать блокировку с хранилища</string>
+
+    <string name="password_input_title">Пароль от хранилища</string>
+    <string name="password_input_summary">укажите мастер-пароль от хранилища сертификатов</string>
+    <string name="password_input_dialog_title">Пароль от хранилища сертификатов</string>
+</resources>

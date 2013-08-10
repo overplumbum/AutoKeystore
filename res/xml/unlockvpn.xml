@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:persistent="false"
+        >
+
+    <PreferenceScreen
+            android:title="1. Create PASSWORD lock"
+            android:key="settings_lock"
+            />
+
+    <PreferenceScreen
+            android:title="2. Add VPN connections"
+            android:key="settings_vpn"
+            />
+
+    <PreferenceScreen
+            android:title="3. Press Here"
+            android:summary="to remove phone lock"
+            android:key="unlock"
+            />
+
+    <PreferenceScreen
+            android:title="4. (optional) use step (1) password"
+            android:summary="to enable auto-unlock on reboot"
+            android:key="autokeystore"
+            />
+
+    <PreferenceScreen
+            android:title="credits"
+            android:key="credits"
+            />
+
+</PreferenceScreen>

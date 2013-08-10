@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Keystore Unlocker</string>
+    <string name="description">
+        *** ROOT-ed phone required ***
+        You can\'t use this program without rooted phone, but you can try KeystoreActivator instead.
+
+        You need this application only if you are using WiFi (not only)
+        authentication which hold keys and certificates in a secure storage (keystore).
+        This application can unlock your keystore each time your phone starts.
+    </string>
+
+    <string name="status_no_error">Keystore unlocked successfully</string>
+    <string name="status_no_error_relocked">Keystore successfully locked and unlocked</string>
+    <string name="status_uninitialized">Keystore is not initialized</string>
+    <string name="status_10">Wrong password. Trials left: %d. In case you fail all the attempts, keystore will be erased
+    </string>
+    <string name="status_sudo_declined">Failed to gain root privileges. You should confirm permanent root access for
+        this application
+    </string>
+    <string name="status_sudo_missing">"su" program was not found.\nCan\'t run without it</string>
+    <string name="status_sudo_old">Keystore access denied</string>
+
+    <string name="notification_ticker">Failed to unlock keystore</string>
+    <string name="wrong_password_disabling">Wrong keystore password. Disabling auto-activation.</string>
+
+    <string name="unlock_btn_summary">Unlock keystore. You should confirm permanent root access for this application
+    </string>
+    <string name="unlock_btn_title">Try to unlock</string>
+
+    <string name="boot_unlock_title">Auto unlock</string>
+    <string name="boot_unlock_summary">Unlock keystore each time device starts</string>
+
+    <string name="password_input_title">Credentials store password</string>
+    <string name="password_input_summary">enter your keystore password</string>
+    <string name="password_input_dialog_title">Credentials store password</string>
+    <string name="suk_error_prepare">Failed to prepare keystore command</string>
+    <string name="suk_error_su_not_found">\'su\' command not found. Please install it.</string>
+    <string name="suk_su_declined">\'su\' permission declined. Please allow \'su\' for AutoKeystore</string>
+    <string name="suk_unable_to_connect">unable to connect to keystore service</string>
+    <string name="suk_keystore_service_result_unavailable">Failed to receive keystore service result</string>
+    <string name="suk_too_big_command">Keystore service command is too big</string>
+    <string name="suk_failed_to_change_userid">Failed to change keystore client user id</string>
+    <string name="suk_unknown_error">Failed to invoke command. Exit code %d</string>
+    <string name="suk_io_error">i/o error running %s</string>
+    <string name="suk_interupted">command interrupted %s</string>
+    <string name="suk_emptry_result">command returned no result %s</string>
+    <string name="suk_unknown_code">Unknown code returned</string>
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:persistent="true"
+        >
+
+    <EditTextPreference
+            android:key="passwd"
+            android:capitalize="none" android:password="true"
+            android:title="@string/password_input_title"
+            android:summary="@string/password_input_summary"
+            android:dialogTitle="@string/password_input_dialog_title"
+            android:persistent="true"
+            />
+
+    <PreferenceScreen
+            android:key="unlock_btn"
+            android:title="@string/unlock_btn_title"
+            android:summary="@string/unlock_btn_summary"
+            android:dependency="passwd"
+            />
+
+    <CheckBoxPreference
+            android:key="boot_unlock_enabled"
+            android:title="@string/boot_unlock_title"
+            android:summary="@string/boot_unlock_summary"
+            android:dependency="passwd"
+            android:persistent="true"
+            />
+
+    <PreferenceScreen
+            android:key="unlockvpn"
+            android:title="VPN w/o password for >=4.0"
+            android:enabled="false"
+            />
+
+</PreferenceScreen>
